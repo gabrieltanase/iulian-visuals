@@ -1,26 +1,18 @@
 /* GENERIC STYLES */
-body {
-    margin: 0;
-    font-family: Helvetica;
-}
-h1,h2,h3,h4,h5,h6 {
-    text-rendering: optimizeLegibility;
-}
+
+
+/* COMMON STYLES */
+
 
 /* HEADER STYLES */
-.header {}
-.header .container {
-    max-width: 1200px;
-    margin: 0 auto;
+
+.logo {
     text-align: center;
-}
-.header h1 {
     margin: 70px 0;
-    font-size: 35px;
-    font-weight: bold;
-    line-height: 1;
 }
-.header h1 a {
-    color: #000;
+
+.logo a {
     text-decoration: none;
 }
+
+/* MAIN SECTION STYLES */
