@@ -35,7 +35,6 @@ angular.module('galleryapp')
 
             $scope.source = imageStateService.getImagePath();
 
-
             // Binds
             $scope.templates = appConstants.templates;
             $scope.openImage = openImage;

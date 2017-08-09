@@ -2,13 +2,15 @@
 
 angular.module('galleryapp',[
     'ngRoute',
-    'ngResource'
+    'ngResource',
+    'ngSanitize'
 ]).constant('appConstants', {
     templates: {
         home: 'templates/home.html',
         header: 'templates/partials/header.html',
         gallery: 'templates/partials/gallery.html',
-        image: 'templates/partials/image.html'
+        image: 'templates/partials/image.html',
+        footer: 'templates/partials/footer.html'
     },
     galleryRows: 3
 })

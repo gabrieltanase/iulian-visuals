@@ -5,5 +5,14 @@
                 <h1><a href="/">Iulian Visuals</a></h1
             </div>
         </div>
+
+        <div class="row">
+            <div class="col-md-12 profile-picture">
+                <img class="img-rounded" ng-src="{{content.bio[0].profilePicture}}" alt="">
+            </div>
+            <div class="col-md-12 bio-container">
+                <p class="bio" ng-bind-html="content.bio[0].blurb"></p>
+            </div>
+        </div>
     </div>
 </header>

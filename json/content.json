@@ -1,13 +1,17 @@
 [{
     "bio":[{
-        "profilePicture": "./image.png",
+        "profilePicture": "img/IMG_3949ed1v.jpg",
         "name": "Iulian Cimpian",
-        "blurb": "blurb"
+        "blurb": "Hello! I'm Iulian Cimpian, visual artist, born in Deva and established in Cluj-Napoca, graduate at the Art and Design University. <br /> Interested in various forms of arts, aesthetics, photography and music. <br />Here are some photos of some events, festivals and concerts I attended. For more, follow my activity on facebook and instagram."
     }],
     "images": [
         {
             "order": "3",
             "src": "img/2alted.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_6772ed.jpg"
         },
         {
             "order": "4",
@@ -18,12 +22,132 @@
             "src": "img/hzbk2ed.jpg"
         },
         {
-            "order": "2",
-            "src": "img/hzblacked.jpg"
+            "order": "5",
+            "src": "img/IMG_0017ed.jpg"
         },
         {
             "order": "5",
-            "src": "img/IMG_0017ed.jpg"
+            "src": "img/IMG_0319ed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_0484ed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_0537Eed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_0707ed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_0711ed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_0803ed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_0807Qed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_0852bed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_1057ed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_1062ed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_1170ed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_1174ed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_1179ed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_1242Eed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_1386ed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_1658ed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_4428ed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_4710ed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_4771ed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_5866ed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_5925eed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_5942eed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_5946ed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_8608ed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_8632ed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_9032ed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_9064ed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_9065 ed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_9073ed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_9991ed.jpg"
+        },
+        {
+            "order": "5",
+            "src": "img/IMG_9998ed.jpg"
         }
     ]
 }]
