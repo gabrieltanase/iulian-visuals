@@ -16,7 +16,7 @@
         <!--  Main Styles -->
         <link rel="stylesheet" href="css/master.css">
     </head>
-    <body ng-controller="galleryAppController">
+    <body ng-cloak ng-controller="galleryAppController">
 
         <div ng-view></div>
 
@@ -30,6 +30,8 @@
 
         <!--  controllers -->
         <script type="text/javascript" src="controllers/galleryAppController.js"></script>
+        <!-- filters -->
+        <script type="text/javascript" src="filters/sortCol.js"></script>
         <!--  models -->
         <script type="text/javascript" src="models/contentModel.js"></script>
     </body>

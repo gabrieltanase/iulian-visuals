@@ -1,0 +1,29 @@
+<main>
+    <div class="container">
+        <div class="row gallery" ng-repeat="images in imagesArray" ng-init="rowNr = $index">
+            <!-- <div class="row gallery" ng-repeat="imageObj in images[$index]"> -->
+                <!-- {{images}} -->
+                <!-- {{rowNr}} -->
+
+                <div class="col-md-4" ng-repeat="image in images">
+
+                    <img class="thumb" ng-src="{{image.src}}" alt="">
+                    <!-- {{image[0][0]}} -->
+                    <!-- {{image[0][1]}}
+                    {{image[0][2]}}
+
+                    {{image[1][0]}}
+                    {{image[1][1]}}
+                    {{image[1][2]}}
+
+                    {{image[2][0]}} -->
+                    <!-- {{rowNr}} -->
+                    <!-- {{$index}} -->
+                    <!-- {{images[rowNr][$index]}} -->
+                    <!-- <img ng-src="{image[$index].src}" alt=""> -->
+                </div>
+            <!-- </div> -->
+        </div>
+
+    </div>
+</main>

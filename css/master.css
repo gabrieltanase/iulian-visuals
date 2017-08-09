@@ -1,8 +1,6 @@
 /* GENERIC STYLES */
 
-
 /* COMMON STYLES */
-
 
 /* HEADER STYLES */
 
@@ -16,3 +14,17 @@
 }
 
 /* MAIN SECTION STYLES */
+
+.gallery {
+    /* display: flex;
+     flex-wrap: wrap;*/
+}
+
+.gallery .thumb-container {
+    /*max-height: 350px;*/
+}
+
+.gallery .thumb {
+    width: 100%;
+    height: auto;
+}

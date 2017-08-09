@@ -1,0 +1,31 @@
+[{
+    "images": [{
+            "category": "small",
+            "src": "./img/budapest-525857_1920.jpg"
+        },
+        {
+            "category": "small",
+            "src": "./img/chain-bridge-111329_1920.jpg"
+        },
+        {
+            "category": "small",
+            "src": "./img/fantasy-2543658_1920.jpg"
+        },
+        {
+            "category": "small",
+            "src": "./img/lavender-1275377_1920.jpg"
+        },
+        {
+            "category": "small",
+            "src": "./img/light-640768_1920.jpg"
+        },
+        {
+            "category": "small",
+            "src": "./img/vienna-108198_1920.jpg"
+        },
+        {
+            "category": "small",
+            "src": "./img/vienna-171444_1920.jpg"
+        }
+    ]
+}]
