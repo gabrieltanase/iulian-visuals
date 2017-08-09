@@ -9,7 +9,7 @@ angular.module('galleryapp')
             content: null,
             loadContent: function(refresh) {
                 var self = this,
-                    url = "./json/images.json";
+                    url = "./json/content.json";
 
                 if (contentDefer && !refresh) {
                     return contentDefer.promise;
@@ -18,7 +18,7 @@ angular.module('galleryapp')
                 contentDefer = $q.defer();
 
                 $http.get(url).then(function(result) {
-                    self.content = result.data;
+                    self.content = result.data[0];
                     contentDefer.resolve();
                 }, contentDefer.reject);
 

@@ -16,12 +16,39 @@
 /* MAIN SECTION STYLES */
 
 .gallery {
-    /* display: flex;
-     flex-wrap: wrap;*/
+    margin-bottom: 3px;
 }
 
 .gallery .thumb-container {
-    /*max-height: 350px;*/
+    margin-bottom: 3px;
+    padding: 0 3px 0 0;
+
+    height: 180px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+
+.gallery .thumb-container.crop-height img {
+    width: 99%;
+    height: auto;
+    position: absolute;
+    top: -100%;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.gallery .thumb-container.crop-width img {
+    width: auto;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: -100%;
+    margin: auto;
 }
 
 .gallery .thumb {

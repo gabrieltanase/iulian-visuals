@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('healthyweightShared')
+angular.module('galleryapp')
     .directive('imageStretcher', function() {
 
         return {

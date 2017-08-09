@@ -1,4 +1,9 @@
 [{
+    "bio":[{
+        "profilePicture": "./image.png",
+        "name": "Iulian Cimpian",
+        "blurb": "blurb"
+    }],
     "images": [{
             "category": "small",
             "src": "./img/budapest-525857_1920.jpg"
