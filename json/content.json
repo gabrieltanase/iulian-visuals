@@ -4,33 +4,26 @@
         "name": "Iulian Cimpian",
         "blurb": "blurb"
     }],
-    "images": [{
-            "category": "small",
-            "src": "./img/budapest-525857_1920.jpg"
+    "images": [
+        {
+            "order": "3",
+            "src": "img/2alted.jpg"
         },
         {
-            "category": "small",
-            "src": "./img/chain-bridge-111329_1920.jpg"
+            "order": "4",
+            "src": "img/bw1ed.jpg"
         },
         {
-            "category": "small",
-            "src": "./img/fantasy-2543658_1920.jpg"
+            "order": "1",
+            "src": "img/hzbk2ed.jpg"
         },
         {
-            "category": "small",
-            "src": "./img/lavender-1275377_1920.jpg"
+            "order": "2",
+            "src": "img/hzblacked.jpg"
         },
         {
-            "category": "small",
-            "src": "./img/light-640768_1920.jpg"
-        },
-        {
-            "category": "small",
-            "src": "./img/vienna-108198_1920.jpg"
-        },
-        {
-            "category": "small",
-            "src": "./img/vienna-171444_1920.jpg"
+            "order": "5",
+            "src": "img/IMG_0017ed.jpg"
         }
     ]
 }]

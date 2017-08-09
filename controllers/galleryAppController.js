@@ -1,8 +1,8 @@
 'use strict';
 
 angular.module('galleryapp')
-    .controller('galleryAppController', ['$scope', '$location','appConstants', 'contentModel',
-        function($scope, $location, appConstants, contentModel) {
+    .controller('galleryAppController', ['$scope', '$location','appConstants', 'contentModel', 'imageStateService',
+        function($scope, $location, appConstants, contentModel, imageStateService) {
 
             function splitArray(items, numberOfItemsPerRow) {
                 var newArray = [], i, len;
@@ -16,6 +16,15 @@ angular.module('galleryapp')
                 return newArray;
             }
 
+            function openImage(imagePath) {
+                imageStateService.setImagePath(imagePath);
+                $location.path('/image');
+            }
+
+            function close() {
+                $location.path('/');
+            }
+
             // Content
             contentModel.loadContent().then(function() {
                 $scope.content = contentModel.content;
@@ -24,7 +33,11 @@ angular.module('galleryapp')
                 $scope.content = null;
             });
 
+            $scope.source = imageStateService.getImagePath();
+
 
             // Binds
             $scope.templates = appConstants.templates;
+            $scope.openImage = openImage;
+            $scope.close = close;
     }]);

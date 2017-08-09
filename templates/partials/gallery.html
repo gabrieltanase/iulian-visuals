@@ -2,10 +2,12 @@
     <div class="container">
         <div class="row gallery" ng-repeat="images in imagesArray">
 
-                <div class="col-md-4 thumb-container {{imageCropType}}" image-stretcher ng-repeat="image in images">
+                <div class="col-md-4 thumb-container {{imageCropType}}"
+                    image-stretcher ng-repeat="image in images | orderBy: order"
+                    ng-click="openImage(image.src)">
                     <img class="thumb " ng-src="{{image.src}}" alt="">
                 </div>
-                
+
         </div>
     </div>
 </main>

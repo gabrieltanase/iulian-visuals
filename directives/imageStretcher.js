@@ -16,10 +16,10 @@ angular.module('galleryapp')
                  */
                 function getCropRatio(containerRatio, imgRatio) {
                     if (containerRatio > 1 && containerRatio < imgRatio || containerRatio <= 1 && (imgRatio > 1 || containerRatio < imgRatio)) {
-                        // when cotainer landscape but less wide than image or container portrait but ( img is landscape or container is taller than image)
+                        // when container landscape but less wide than image or container portrait but ( img is landscape or container is taller than image)
                         scope.imageCropType = 'crop-width';
                     } else if (containerRatio < 1 && containerRatio > imgRatio || containerRatio >= 1 && (imgRatio < 1 || containerRatio > imgRatio)) {
-                        // when cotainer landscape but (wider than image or image is portrait) OR container is portrait but less tall than image
+                        // when container landscape but (wider than image or image is portrait) OR container is portrait but less tall than image
                         scope.imageCropType = 'crop-height';
                     }
                 }
