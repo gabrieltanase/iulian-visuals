@@ -8,12 +8,12 @@ angular.module('galleryapp',[
         home: 'templates/home.html'
     },
 })
-// .config(['$routeProvider', 'appConstants', function($routeProvider, appConstants){
-//     $routeProvider.when('/', {
-//         templateUrl: appConstants.templates.home,
-//         controller: 'galleryAppController'
-//     })
-//     .otherwise({
-//         redirectTo: '/'
-//     });
-// }]);
+.config(['$routeProvider', 'appConstants', function($routeProvider, appConstants){
+    $routeProvider.when('/', {
+        templateUrl: appConstants.templates.home,
+        controller: 'galleryAppController'
+    })
+    .otherwise({
+        redirectTo: '/'
+    });
+}]);
